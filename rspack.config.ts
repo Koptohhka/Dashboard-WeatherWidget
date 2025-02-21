@@ -30,7 +30,7 @@ export default defineConfig({
     // You need to set a unique value that is not equal to other applications
     uniqueName: "WeatherWidget",
     // publicPath must be configured if using manifest
-    publicPath: "http://localhost:8084/",
+    publicPath: isDev ? "http://localhost:8084/" : "https://dashboard-weather-widget.vercel.app/",
   },
 
   experiments: {
