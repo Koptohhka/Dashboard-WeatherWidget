@@ -46,7 +46,7 @@ const WeatherWidget = () => {
     }
 
     return (
-        <div className="bg-green rounded shadow p-4">
+        <div className="bg-green rounded shadow-lg p-4">
             <h2 className="text-lg font-bold mb-2">Погода</h2>
             <div className="flex items-center">
                 <div className="text-4xl mr-4">{`${temperature > 9 ? "☀️" : "❄️"}`}</div>
